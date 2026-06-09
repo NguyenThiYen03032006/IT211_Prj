@@ -569,3 +569,413 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
 2026-06-09T12:51:19.570+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
 2026-06-09T12:51:19.573+07:00 ERROR 20136 --- [IT211_Prj] [http-nio-8080-exec-6] com.it211_prj.aop.LoggingAspect          : [ERROR] AuthService.login(..) failed: The specified key byte array is 224 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the Jwts.SIG.HS256.key() builder (or HS384.key() or HS512.key()) to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
 2026-06-09T12:51:19.577+07:00  WARN 20136 --- [IT211_Prj] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 224 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the Jwts.SIG.HS256.key() builder (or HS384.key() or HS512.key()) to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.]
+2026-06-09T13:24:11.317+07:00  INFO 20136 --- [IT211_Prj] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09T13:24:11.327+07:00  INFO 20136 --- [IT211_Prj] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-09T13:24:11.331+07:00  INFO 20136 --- [IT211_Prj] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-09T13:24:19.046+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : Starting It211PrjApplication using Java 21.0.11 with PID 39140 (C:\Users\nguye\Desktop\IT211_Prj\build\classes\java\main started by nguye in C:\Users\nguye\Desktop\IT211_Prj)
+2026-06-09T13:24:19.047+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-06-09T13:24:19.078+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-09T13:24:19.079+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-09T13:24:19.526+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09T13:24:19.578+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 9 JPA repository interfaces.
+2026-06-09T13:24:20.097+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-09T13:24:20.107+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-09T13:24:20.107+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-09T13:24:20.135+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-09T13:24:20.135+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1056 ms
+2026-06-09T13:24:20.242+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-09T13:24:20.274+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-09T13:24:20.303+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-09T13:24:20.500+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09T13:24:20.521+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-09T13:24:20.619+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c87089e
+2026-06-09T13:24:20.620+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-09T13:24:20.651+07:00  WARN 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09T13:24:21.360+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-09T13:24:21.403+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+    alter table roles 
+       modify column name enum ('ADMIN','LECTURER','STUDENT') not null
+2026-06-09T13:24:21.424+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+    create index idx_token_blacklist_token 
+       on token_blacklist (token)
+2026-06-09T13:24:21.444+07:00  WARN 39140 --- [IT211_Prj] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+    create index idx_token_blacklist_token 
+       on token_blacklist (token)" via JDBC [Specified key was too long; max key length is 3072 bytes]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    create index idx_token_blacklist_token 
+       on token_blacklist (token)" via JDBC [Specified key was too long; max key length is 3072 bytes]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyIndexes(AbstractSchemaMigrator.java:368) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:96) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:240) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:682) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1705) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1454) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1212) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:174) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:169) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:154) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4412) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:870) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:516) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:222) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619) ~[spring-context-6.1.14.jar:6.1.14]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.5.jar:3.3.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.5.jar:3.3.5]
+	at com.it211_prj.It211PrjApplication.main(It211PrjApplication.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.5.jar:3.3.5]
+Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key length is 3072 bytes
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94) ~[HikariCP-5.1.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-5.1.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	... 126 common frames omitted
+
+2026-06-09T13:24:21.489+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09T13:24:21.914+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09T13:24:21.914+07:00  WARN 39140 --- [IT211_Prj] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2026-06-09T13:24:22.402+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09T13:24:22.790+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-09T13:24:22.832+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-09T13:24:22.843+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : Started It211PrjApplication in 4.1 seconds (process running for 4.563)
+2026-06-09T13:24:23.007+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.name 
+    from
+        roles r1_0 
+    where
+        r1_0.name=?
+2026-06-09T13:24:23.009+07:00 TRACE 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [ADMIN]
+2026-06-09T13:24:23.027+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.name 
+    from
+        roles r1_0 
+    where
+        r1_0.name=?
+2026-06-09T13:24:23.027+07:00 TRACE 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [LECTURER]
+2026-06-09T13:24:23.031+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.name 
+    from
+        roles r1_0 
+    where
+        r1_0.name=?
+2026-06-09T13:24:23.032+07:00 TRACE 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [STUDENT]
+2026-06-09T13:24:23.038+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2026-06-09T13:24:23.038+07:00 TRACE 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
+2026-06-09T13:24:23.039+07:00 TRACE 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:INTEGER) <- [1]
+2026-06-09T13:24:39.183+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-09T13:24:39.184+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-09T13:24:39.186+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-06-09T13:24:39.225+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2026-06-09T13:24:39.241+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T13:24:39.245+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2026-06-09T13:24:39.534+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-2] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=nva@gmail.com, password=123456]
+2026-06-09T13:24:39.625+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-09T13:24:39.626+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
+2026-06-09T13:24:39.649+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-09T13:24:39.650+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [2]
+2026-06-09T13:24:39.761+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-06-09T13:24:39.777+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-09T13:24:39.778+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
+2026-06-09T13:24:39.783+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-09T13:24:39.783+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
+2026-06-09T13:24:39.938+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        refresh_tokens
+        (expires_at, revoked, token, user_id) 
+    values
+        (?, ?, ?, ?)
+2026-06-09T13:24:39.941+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP_UTC) <- [2026-06-16T06:24:39.909718900Z]
+2026-06-09T13:24:39.942+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (2:BOOLEAN) <- [false]
+2026-06-09T13:24:39.942+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [37ecec06-d4d2-45a8-b67a-b89edcf9836b]
+2026-06-09T13:24:39.942+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (4:BIGINT) <- [2]
+2026-06-09T13:24:39.965+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-2] com.it211_prj.aop.LoggingAspect          : [AUTH] Login success
+2026-06-09T13:28:20.867+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2026-06-09T13:28:20.867+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T13:28:20.868+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2026-06-09T13:28:20.899+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2026-06-09T13:28:20.900+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nvb@gmail.com]
+2026-06-09T13:28:20.900+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (2:INTEGER) <- [1]
+2026-06-09T13:28:20.904+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.name 
+    from
+        roles r1_0 
+    where
+        r1_0.name=?
+2026-06-09T13:28:20.906+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [STUDENT]
+2026-06-09T13:28:21.010+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (created_at, email, enabled, full_name, password, student_code) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2026-06-09T13:28:21.010+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP) <- [2026-06-09T13:28:21.008024300]
+2026-06-09T13:28:21.011+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [nvb@gmail.com]
+2026-06-09T13:28:21.011+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (3:BOOLEAN) <- [true]
+2026-06-09T13:28:21.011+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Nguyen Van B]
+2026-06-09T13:28:21.011+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (5:VARCHAR) <- [$2a$10$RJDrzX8A.mcKeTG4qk9omeZUQhnP.XjDeWHXzeY0606nbtlCe6Yby]
+2026-06-09T13:28:21.011+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [STU02]
+2026-06-09T13:28:21.023+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        user_roles
+        (user_id, role_id) 
+    values
+        (?, ?)
+2026-06-09T13:28:21.025+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [3]
+2026-06-09T13:28:21.025+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (2:BIGINT) <- [3]
+2026-06-09T13:28:43.551+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2026-06-09T13:28:43.551+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-09T13:28:43.551+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2026-06-09T13:28:43.553+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-6] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=nvb@gmail.com, password=123456]
+2026-06-09T13:28:43.554+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-09T13:28:43.555+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nvb@gmail.com]
+2026-06-09T13:28:43.556+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-09T13:28:43.557+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [3]
+2026-06-09T13:28:43.649+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-06-09T13:28:43.653+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-09T13:28:43.654+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nvb@gmail.com]
+2026-06-09T13:28:43.659+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-09T13:28:43.661+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nvb@gmail.com]
+2026-06-09T13:28:43.664+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        refresh_tokens
+        (expires_at, revoked, token, user_id) 
+    values
+        (?, ?, ?, ?)
+2026-06-09T13:28:43.665+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP_UTC) <- [2026-06-16T06:28:43.663969200Z]
+2026-06-09T13:28:43.665+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (2:BOOLEAN) <- [false]
+2026-06-09T13:28:43.665+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [ba3cb1ef-69b3-4192-9713-f53f44eac086]
+2026-06-09T13:28:43.665+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (4:BIGINT) <- [3]
+2026-06-09T13:28:43.668+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-6] com.it211_prj.aop.LoggingAspect          : [AUTH] Login success
