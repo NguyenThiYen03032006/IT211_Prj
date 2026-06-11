@@ -1,30 +1,44 @@
-2026-06-09T12:36:00.957+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : Starting It211PrjApplication using Java 21.0.11 with PID 20136 (C:\Users\nguye\Desktop\IT211_Prj\build\classes\java\main started by nguye in C:\Users\nguye\Desktop\IT211_Prj)
-2026-06-09T12:36:00.973+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : No active profile set, falling back to 1 default profile: "default"
-2026-06-09T12:36:01.033+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-09T12:36:01.033+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-09T12:36:01.854+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-06-09T12:36:01.944+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 9 JPA repository interfaces.
-2026-06-09T12:36:02.850+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-09T12:36:02.865+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-09T12:36:02.866+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
-2026-06-09T12:36:02.923+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-09T12:36:02.924+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1890 ms
-2026-06-09T12:36:03.136+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-06-09T12:36:03.223+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2026-06-09T12:36:03.263+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-06-09T12:36:03.636+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-06-09T12:36:03.669+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-06-09T12:36:03.844+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@393174d9
-2026-06-09T12:36:03.848+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-06-09T12:36:03.903+07:00  WARN 20136 --- [IT211_Prj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-06-09T12:36:04.670+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-06-09T12:36:04.709+07:00 DEBUG 20136 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+2026-06-11T01:45:27.485+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : Starting It211PrjApplication using Java 21.0.11 with PID 49608 (C:\Users\nguye\Desktop\IT211_Prj\build\classes\java\main started by nguye in C:\Users\nguye\Desktop\IT211_Prj)
+2026-06-11T01:45:27.498+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-06-11T01:45:27.547+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-11T01:45:27.548+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-11T01:45:28.659+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-11T01:45:28.664+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-11T01:45:28.912+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 233 ms. Found 10 JPA repository interfaces.
+2026-06-11T01:45:28.943+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-11T01:45:28.945+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-11T01:45:28.970+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.CourseRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:28.972+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.EnrollmentRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:28.973+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.GradeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:28.974+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.MaterialRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:28.974+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.PasswordResetTokenRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:28.974+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.RefreshTokenRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:28.975+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:28.975+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.SubmissionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:28.975+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.TokenBlacklistRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:28.975+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:28.975+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2026-06-11T01:45:30.087+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-11T01:45:30.104+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T01:45:30.104+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-11T01:45:30.184+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-11T01:45:30.185+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2635 ms
+2026-06-11T01:45:30.415+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-11T01:45:30.487+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-11T01:45:30.528+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-11T01:45:30.957+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-11T01:45:31.005+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-11T01:45:31.247+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@505cdbec
+2026-06-11T01:45:31.249+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-11T01:45:31.301+07:00  WARN 49608 --- [IT211_Prj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-11T01:45:32.691+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-11T01:45:32.761+07:00 DEBUG 49608 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
     alter table roles 
        modify column name enum ('ADMIN','LECTURER','STUDENT') not null
-2026-06-09T12:36:04.746+07:00 DEBUG 20136 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+2026-06-11T01:45:32.798+07:00 DEBUG 49608 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
     create index idx_token_blacklist_token 
        on token_blacklist (token)
-2026-06-09T12:36:04.768+07:00  WARN 20136 --- [IT211_Prj] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-06-11T01:45:32.829+07:00  WARN 49608 --- [IT211_Prj] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     create index idx_token_blacklist_token 
        on token_blacklist (token)" via JDBC [Specified key was too long; max key length is 3072 bytes]
 
@@ -168,437 +182,74 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 126 common frames omitted
 
-2026-06-09T12:36:04.816+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-06-09T12:36:05.266+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-06-09T12:36:05.266+07:00  WARN 20136 --- [IT211_Prj] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-2026-06-09T12:36:05.777+07:00 DEBUG 20136 --- [IT211_Prj] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2026-06-09T12:36:06.062+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-09T12:36:06.085+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-09T12:36:06.090+07:00  INFO 20136 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : Started It211PrjApplication in 5.588 seconds (process running for 6.092)
-2026-06-09T12:36:06.188+07:00 DEBUG 20136 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
-    select
-        r1_0.id,
-        r1_0.name 
-    from
-        roles r1_0 
-    where
-        r1_0.name=?
-2026-06-09T12:36:06.190+07:00 TRACE 20136 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [ADMIN]
-2026-06-09T12:36:06.200+07:00 DEBUG 20136 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
-    select
-        r1_0.id,
-        r1_0.name 
-    from
-        roles r1_0 
-    where
-        r1_0.name=?
-2026-06-09T12:36:06.201+07:00 TRACE 20136 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [LECTURER]
-2026-06-09T12:36:06.203+07:00 DEBUG 20136 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
-    select
-        r1_0.id,
-        r1_0.name 
-    from
-        roles r1_0 
-    where
-        r1_0.name=?
-2026-06-09T12:36:06.203+07:00 TRACE 20136 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [STUDENT]
-2026-06-09T12:36:06.207+07:00 DEBUG 20136 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
-    select
-        u1_0.id 
-    from
-        users u1_0 
-    where
-        u1_0.email=? 
-    limit
-        ?
-2026-06-09T12:36:06.207+07:00 TRACE 20136 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
-2026-06-09T12:36:06.207+07:00 TRACE 20136 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:INTEGER) <- [1]
-2026-06-09T12:36:11.776+07:00  INFO 20136 --- [IT211_Prj] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-09T12:36:11.776+07:00  INFO 20136 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-09T12:36:11.777+07:00  INFO 20136 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-06-09T12:36:11.793+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
-2026-06-09T12:36:11.798+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T12:36:11.799+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
-2026-06-09T12:36:11.959+07:00  WARN 20136 --- [IT211_Prj] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.it211_prj.dto.auth.LoginResponse com.it211_prj.controller.AuthController.login(com.it211_prj.dto.auth.LoginRequest): [Field error in object 'loginRequest' on field 'email': rejected value [{{adminEmail}}]; codes [Email.loginRequest.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [loginRequest.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@7906592f,.*]; default message [must be a well-formed email address]] ]
-2026-06-09T12:37:30.584+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
-2026-06-09T12:37:30.585+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T12:37:30.585+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
-2026-06-09T12:37:30.658+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
-    select
-        u1_0.id 
-    from
-        users u1_0 
-    where
-        u1_0.email=? 
-    limit
-        ?
-2026-06-09T12:37:30.659+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:37:30.660+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (2:INTEGER) <- [1]
-2026-06-09T12:37:30.665+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
-    select
-        r1_0.id,
-        r1_0.name 
-    from
-        roles r1_0 
-    where
-        r1_0.name=?
-2026-06-09T12:37:30.666+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [STUDENT]
-2026-06-09T12:37:30.869+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
-    insert 
-    into
-        users
-        (created_at, email, enabled, full_name, password, student_code) 
-    values
-        (?, ?, ?, ?, ?, ?)
-2026-06-09T12:37:30.873+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP) <- [2026-06-09T12:37:30.792022]
-2026-06-09T12:37:30.874+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:37:30.874+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (3:BOOLEAN) <- [true]
-2026-06-09T12:37:30.874+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Nguyen Van A]
-2026-06-09T12:37:30.874+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (5:VARCHAR) <- [$2a$10$1IL3Nph1DUVtNdL2KYP5jOHjCTt8ECvyan8YsFIN9b6i0AK10Jt3.]
-2026-06-09T12:37:30.874+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [STU01]
-2026-06-09T12:37:30.940+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
-    insert 
-    into
-        user_roles
-        (user_id, role_id) 
-    values
-        (?, ?)
-2026-06-09T12:37:30.941+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [2]
-2026-06-09T12:37:30.942+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (2:BIGINT) <- [3]
-2026-06-09T12:38:13.069+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
-2026-06-09T12:38:13.070+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T12:38:13.070+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
-2026-06-09T12:38:13.096+07:00  INFO 20136 --- [IT211_Prj] [http-nio-8080-exec-7] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=nva@gmail.com, password=123456]
-2026-06-09T12:38:13.174+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:38:13.175+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:38:13.187+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
-    select
-        r1_0.user_id,
-        r1_1.id,
-        r1_1.name 
-    from
-        user_roles r1_0 
-    join
-        roles r1_1 
-            on r1_1.id=r1_0.role_id 
-    where
-        r1_0.user_id=?
-2026-06-09T12:38:13.187+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [2]
-2026-06-09T12:38:13.274+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2026-06-09T12:38:13.278+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:38:13.278+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:38:13.284+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:38:13.285+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:38:13.388+07:00 ERROR 20136 --- [IT211_Prj] [http-nio-8080-exec-7] com.it211_prj.aop.LoggingAspect          : [ERROR] AuthService.login(..) failed: The specified key byte array is 224 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the Jwts.SIG.HS256.key() builder (or HS384.key() or HS512.key()) to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
-2026-06-09T12:38:13.394+07:00  WARN 20136 --- [IT211_Prj] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 224 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the Jwts.SIG.HS256.key() builder (or HS384.key() or HS512.key()) to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.]
-2026-06-09T12:44:22.793+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
-2026-06-09T12:44:22.794+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T12:44:22.794+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
-2026-06-09T12:44:22.798+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
-    select
-        u1_0.id 
-    from
-        users u1_0 
-    where
-        u1_0.email=? 
-    limit
-        ?
-2026-06-09T12:44:22.799+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:44:22.799+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (2:INTEGER) <- [1]
-2026-06-09T12:44:22.800+07:00 ERROR 20136 --- [IT211_Prj] [http-nio-8080-exec-6] com.it211_prj.aop.LoggingAspect          : [ERROR] AuthService.register(..) failed: Email already exists
-2026-06-09T12:44:22.803+07:00  WARN 20136 --- [IT211_Prj] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.it211_prj.exception.BadRequestException: Email already exists]
-2026-06-09T12:45:28.240+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
-2026-06-09T12:45:28.241+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T12:45:28.242+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
-2026-06-09T12:45:28.246+07:00  INFO 20136 --- [IT211_Prj] [http-nio-8080-exec-8] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=nva@gmail.com, password=eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjpbIlJPTEVfQURNSU4iXSwiaWF0IjoxNzgwNjM5MTMyLCJleHAiOjE3ODA2NDAwMzJ9.OhhcjU3JgJk0yaMiB7M-8DgyMPXFcN2VavTZTJrrMoj89sWlSpCqHLAfl3GOLfdd]
-2026-06-09T12:45:28.249+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:45:28.250+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:45:28.254+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
-    select
-        r1_0.user_id,
-        r1_1.id,
-        r1_1.name 
-    from
-        user_roles r1_0 
-    join
-        roles r1_1 
-            on r1_1.id=r1_0.role_id 
-    where
-        r1_0.user_id=?
-2026-06-09T12:45:28.255+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [2]
-2026-06-09T12:45:28.399+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
-2026-06-09T12:45:28.402+07:00 ERROR 20136 --- [IT211_Prj] [http-nio-8080-exec-8] com.it211_prj.aop.LoggingAspect          : [ERROR] AuthService.login(..) failed: Bad credentials
-2026-06-09T12:45:28.405+07:00  WARN 20136 --- [IT211_Prj] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
-2026-06-09T12:45:45.080+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
-2026-06-09T12:45:45.081+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T12:45:45.081+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
-2026-06-09T12:45:45.084+07:00  INFO 20136 --- [IT211_Prj] [http-nio-8080-exec-3] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=nva@gmail.com, password=123456]
-2026-06-09T12:45:45.087+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:45:45.088+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:45:45.090+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
-    select
-        r1_0.user_id,
-        r1_1.id,
-        r1_1.name 
-    from
-        user_roles r1_0 
-    join
-        roles r1_1 
-            on r1_1.id=r1_0.role_id 
-    where
-        r1_0.user_id=?
-2026-06-09T12:45:45.090+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [2]
-2026-06-09T12:45:45.224+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2026-06-09T12:45:45.228+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:45:45.229+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:45:45.233+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:45:45.233+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:45:45.258+07:00 ERROR 20136 --- [IT211_Prj] [http-nio-8080-exec-3] com.it211_prj.aop.LoggingAspect          : [ERROR] AuthService.login(..) failed: The specified key byte array is 224 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the Jwts.SIG.HS256.key() builder (or HS384.key() or HS512.key()) to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
-2026-06-09T12:45:45.264+07:00  WARN 20136 --- [IT211_Prj] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 224 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the Jwts.SIG.HS256.key() builder (or HS384.key() or HS512.key()) to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.]
-2026-06-09T12:47:42.862+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
-2026-06-09T12:47:42.862+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T12:47:42.862+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
-2026-06-09T12:47:42.865+07:00  INFO 20136 --- [IT211_Prj] [http-nio-8080-exec-1] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=nva@gmail.com, password=$2a$10$1IL3Nph1DUVtNdL2KYP5jOHjCTt8ECvyan8YsFIN9b6i0AK10Jt3.]
-2026-06-09T12:47:42.866+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:47:42.867+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:47:42.870+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
-    select
-        r1_0.user_id,
-        r1_1.id,
-        r1_1.name 
-    from
-        user_roles r1_0 
-    join
-        roles r1_1 
-            on r1_1.id=r1_0.role_id 
-    where
-        r1_0.user_id=?
-2026-06-09T12:47:42.870+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [2]
-2026-06-09T12:47:42.932+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
-2026-06-09T12:47:42.932+07:00 ERROR 20136 --- [IT211_Prj] [http-nio-8080-exec-1] com.it211_prj.aop.LoggingAspect          : [ERROR] AuthService.login(..) failed: Bad credentials
-2026-06-09T12:47:42.934+07:00  WARN 20136 --- [IT211_Prj] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
-2026-06-09T12:47:48.589+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
-2026-06-09T12:47:48.589+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T12:47:48.589+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
-2026-06-09T12:47:48.591+07:00  INFO 20136 --- [IT211_Prj] [http-nio-8080-exec-7] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=nva@gmail.com, password=$2a$10$1IL3Nph1DUVtNdL2KYP5jOHjCTt8ECvyan8YsFIN9b6i0AK10Jt3]
-2026-06-09T12:47:48.592+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:47:48.592+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T12:47:48.594+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
-    select
-        r1_0.user_id,
-        r1_1.id,
-        r1_1.name 
-    from
-        user_roles r1_0 
-    join
-        roles r1_1 
-            on r1_1.id=r1_0.role_id 
-    where
-        r1_0.user_id=?
-2026-06-09T12:47:48.594+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [2]
-2026-06-09T12:47:48.652+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to authenticate since password does not match stored value
-2026-06-09T12:47:48.653+07:00 ERROR 20136 --- [IT211_Prj] [http-nio-8080-exec-7] com.it211_prj.aop.LoggingAspect          : [ERROR] AuthService.login(..) failed: Bad credentials
-2026-06-09T12:47:48.655+07:00  WARN 20136 --- [IT211_Prj] [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
-2026-06-09T12:51:19.402+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
-2026-06-09T12:51:19.404+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T12:51:19.404+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
-2026-06-09T12:51:19.412+07:00  INFO 20136 --- [IT211_Prj] [http-nio-8080-exec-6] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=admin@it211.local, password=admin123]
-2026-06-09T12:51:19.417+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:51:19.418+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
-2026-06-09T12:51:19.421+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
-    select
-        r1_0.user_id,
-        r1_1.id,
-        r1_1.name 
-    from
-        user_roles r1_0 
-    join
-        roles r1_1 
-            on r1_1.id=r1_0.role_id 
-    where
-        r1_0.user_id=?
-2026-06-09T12:51:19.422+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
-2026-06-09T12:51:19.560+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2026-06-09T12:51:19.563+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:51:19.564+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
-2026-06-09T12:51:19.569+07:00 DEBUG 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T12:51:19.570+07:00 TRACE 20136 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
-2026-06-09T12:51:19.573+07:00 ERROR 20136 --- [IT211_Prj] [http-nio-8080-exec-6] com.it211_prj.aop.LoggingAspect          : [ERROR] AuthService.login(..) failed: The specified key byte array is 224 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the Jwts.SIG.HS256.key() builder (or HS384.key() or HS512.key()) to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
-2026-06-09T12:51:19.577+07:00  WARN 20136 --- [IT211_Prj] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [io.jsonwebtoken.security.WeakKeyException: The specified key byte array is 224 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the Jwts.SIG.HS256.key() builder (or HS384.key() or HS512.key()) to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.]
-2026-06-09T13:24:11.317+07:00  INFO 20136 --- [IT211_Prj] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-06-09T13:24:11.327+07:00  INFO 20136 --- [IT211_Prj] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-06-09T13:24:11.331+07:00  INFO 20136 --- [IT211_Prj] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-06-09T13:24:19.046+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : Starting It211PrjApplication using Java 21.0.11 with PID 39140 (C:\Users\nguye\Desktop\IT211_Prj\build\classes\java\main started by nguye in C:\Users\nguye\Desktop\IT211_Prj)
-2026-06-09T13:24:19.047+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : No active profile set, falling back to 1 default profile: "default"
-2026-06-09T13:24:19.078+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-09T13:24:19.079+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-09T13:24:19.526+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-06-09T13:24:19.578+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 9 JPA repository interfaces.
-2026-06-09T13:24:20.097+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-09T13:24:20.107+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-09T13:24:20.107+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
-2026-06-09T13:24:20.135+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-09T13:24:20.135+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1056 ms
-2026-06-09T13:24:20.242+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-06-09T13:24:20.274+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
-2026-06-09T13:24:20.303+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-06-09T13:24:20.500+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-06-09T13:24:20.521+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-06-09T13:24:20.619+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c87089e
-2026-06-09T13:24:20.620+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-06-09T13:24:20.651+07:00  WARN 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-06-09T13:24:21.360+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-06-09T13:24:21.403+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+2026-06-11T01:45:32.929+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-11T01:45:33.290+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-11T01:45:34.599+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-11T01:45:34.599+07:00  WARN 49608 --- [IT211_Prj] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2026-06-11T01:45:34.663+07:00  WARN 49608 --- [IT211_Prj] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\nguye\Desktop\IT211_Prj\build\classes\java\main\com\it211_prj\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'passwordResetService' defined in file [C:\Users\nguye\Desktop\IT211_Prj\build\classes\java\main\com\it211_prj\service\PasswordResetService.class]: Unsatisfied dependency expressed through constructor parameter 4: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-06-11T01:45:34.673+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-11T01:45:34.675+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-11T01:45:34.679+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-11T01:45:34.681+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-06-11T01:45:34.687+07:00  INFO 49608 --- [IT211_Prj] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-11T01:45:34.708+07:00 ERROR 49608 --- [IT211_Prj] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 4 of constructor in com.it211_prj.service.PasswordResetService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
+
+2026-06-11T01:45:51.897+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : Starting It211PrjApplication using Java 21.0.11 with PID 47644 (C:\Users\nguye\Desktop\IT211_Prj\build\classes\java\main started by nguye in C:\Users\nguye\Desktop\IT211_Prj)
+2026-06-11T01:45:51.899+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-06-11T01:45:51.932+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-11T01:45:51.932+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-11T01:45:52.435+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-11T01:45:52.436+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-11T01:45:52.539+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 10 JPA repository interfaces.
+2026-06-11T01:45:52.551+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-11T01:45:52.552+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-11T01:45:52.563+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.CourseRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:52.563+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.EnrollmentRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:52.564+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.GradeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:52.564+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.MaterialRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:52.564+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.PasswordResetTokenRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:52.564+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.RefreshTokenRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:52.564+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.RoleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:52.564+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.SubmissionRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:52.564+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.TokenBlacklistRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:52.564+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.it211_prj.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-06-11T01:45:52.564+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2026-06-11T01:45:53.086+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-11T01:45:53.096+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-11T01:45:53.096+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-11T01:45:53.126+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-11T01:45:53.126+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1193 ms
+2026-06-11T01:45:53.249+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-11T01:45:53.278+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-11T01:45:53.303+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-11T01:45:53.490+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-11T01:45:53.509+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-11T01:45:53.608+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21d71304
+2026-06-11T01:45:53.609+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-11T01:45:53.636+07:00  WARN 47644 --- [IT211_Prj] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-11T01:45:54.288+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-11T01:45:54.322+07:00 DEBUG 47644 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
     alter table roles 
        modify column name enum ('ADMIN','LECTURER','STUDENT') not null
-2026-06-09T13:24:21.424+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+2026-06-11T01:45:54.358+07:00 DEBUG 47644 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
     create index idx_token_blacklist_token 
        on token_blacklist (token)
-2026-06-09T13:24:21.444+07:00  WARN 39140 --- [IT211_Prj] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
+2026-06-11T01:45:54.377+07:00  WARN 47644 --- [IT211_Prj] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "
     create index idx_token_blacklist_token 
        on token_blacklist (token)" via JDBC [Specified key was too long; max key length is 3072 bytes]
 
@@ -742,14 +393,15 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
 	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
 	... 126 common frames omitted
 
-2026-06-09T13:24:21.489+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-06-09T13:24:21.914+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-06-09T13:24:21.914+07:00  WARN 39140 --- [IT211_Prj] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
-2026-06-09T13:24:22.402+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
-2026-06-09T13:24:22.790+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-09T13:24:22.832+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-09T13:24:22.843+07:00  INFO 39140 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : Started It211PrjApplication in 4.1 seconds (process running for 4.563)
-2026-06-09T13:24:23.007+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+2026-06-11T01:45:54.423+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-11T01:45:54.675+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-11T01:45:55.644+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-11T01:45:55.644+07:00  WARN 47644 --- [IT211_Prj] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2026-06-11T01:45:56.567+07:00 DEBUG 47644 --- [IT211_Prj] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-11T01:45:57.310+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-06-11T01:45:57.353+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-11T01:45:57.360+07:00  INFO 47644 --- [IT211_Prj] [restartedMain] com.it211_prj.It211PrjApplication        : Started It211PrjApplication in 5.7 seconds (process running for 5.988)
+2026-06-11T01:45:57.480+07:00 DEBUG 47644 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
     select
         r1_0.id,
         r1_0.name 
@@ -757,8 +409,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
         roles r1_0 
     where
         r1_0.name=?
-2026-06-09T13:24:23.009+07:00 TRACE 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [ADMIN]
-2026-06-09T13:24:23.027+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+2026-06-11T01:45:57.483+07:00 TRACE 47644 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [ADMIN]
+2026-06-11T01:45:57.504+07:00 DEBUG 47644 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
     select
         r1_0.id,
         r1_0.name 
@@ -766,8 +418,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
         roles r1_0 
     where
         r1_0.name=?
-2026-06-09T13:24:23.027+07:00 TRACE 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [LECTURER]
-2026-06-09T13:24:23.031+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+2026-06-11T01:45:57.505+07:00 TRACE 47644 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [LECTURER]
+2026-06-11T01:45:57.508+07:00 DEBUG 47644 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
     select
         r1_0.id,
         r1_0.name 
@@ -775,8 +427,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
         roles r1_0 
     where
         r1_0.name=?
-2026-06-09T13:24:23.032+07:00 TRACE 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [STUDENT]
-2026-06-09T13:24:23.038+07:00 DEBUG 39140 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
+2026-06-11T01:45:57.509+07:00 TRACE 47644 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [STUDENT]
+2026-06-11T01:45:57.519+07:00 DEBUG 47644 --- [IT211_Prj] [restartedMain] org.hibernate.SQL                        : 
     select
         u1_0.id 
     from
@@ -785,87 +437,15 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
         u1_0.email=? 
     limit
         ?
-2026-06-09T13:24:23.038+07:00 TRACE 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
-2026-06-09T13:24:23.039+07:00 TRACE 39140 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:INTEGER) <- [1]
-2026-06-09T13:24:39.183+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-09T13:24:39.184+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-09T13:24:39.186+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-06-09T13:24:39.225+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
-2026-06-09T13:24:39.241+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T13:24:39.245+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
-2026-06-09T13:24:39.534+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-2] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=nva@gmail.com, password=123456]
-2026-06-09T13:24:39.625+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T13:24:39.626+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T13:24:39.649+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
-    select
-        r1_0.user_id,
-        r1_1.id,
-        r1_1.name 
-    from
-        user_roles r1_0 
-    join
-        roles r1_1 
-            on r1_1.id=r1_0.role_id 
-    where
-        r1_0.user_id=?
-2026-06-09T13:24:39.650+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [2]
-2026-06-09T13:24:39.761+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2026-06-09T13:24:39.777+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T13:24:39.778+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T13:24:39.783+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
-    select
-        u1_0.id,
-        u1_0.created_at,
-        u1_0.email,
-        u1_0.enabled,
-        u1_0.full_name,
-        u1_0.password,
-        u1_0.student_code 
-    from
-        users u1_0 
-    where
-        u1_0.email=?
-2026-06-09T13:24:39.783+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nva@gmail.com]
-2026-06-09T13:24:39.938+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
-    insert 
-    into
-        refresh_tokens
-        (expires_at, revoked, token, user_id) 
-    values
-        (?, ?, ?, ?)
-2026-06-09T13:24:39.941+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP_UTC) <- [2026-06-16T06:24:39.909718900Z]
-2026-06-09T13:24:39.942+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (2:BOOLEAN) <- [false]
-2026-06-09T13:24:39.942+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [37ecec06-d4d2-45a8-b67a-b89edcf9836b]
-2026-06-09T13:24:39.942+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (4:BIGINT) <- [2]
-2026-06-09T13:24:39.965+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-2] com.it211_prj.aop.LoggingAspect          : [AUTH] Login success
-2026-06-09T13:28:20.867+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
-2026-06-09T13:28:20.867+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T13:28:20.868+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
-2026-06-09T13:28:20.899+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+2026-06-11T01:45:57.520+07:00 TRACE 47644 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
+2026-06-11T01:45:57.520+07:00 TRACE 47644 --- [IT211_Prj] [restartedMain] org.hibernate.orm.jdbc.bind              : binding parameter (2:INTEGER) <- [1]
+2026-06-11T01:46:03.272+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-11T01:46:03.273+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-11T01:46:03.275+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-06-11T01:46:03.298+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/register
+2026-06-11T01:46:03.305+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-11T01:46:03.308+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/register
+2026-06-11T01:46:03.584+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
     select
         u1_0.id 
     from
@@ -874,9 +454,9 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
         u1_0.email=? 
     limit
         ?
-2026-06-09T13:28:20.900+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nvb@gmail.com]
-2026-06-09T13:28:20.900+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (2:INTEGER) <- [1]
-2026-06-09T13:28:20.904+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+2026-06-11T01:46:03.585+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [sv1@gmail.com]
+2026-06-11T01:46:03.585+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (2:INTEGER) <- [1]
+2026-06-11T01:46:03.589+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
     select
         r1_0.id,
         r1_0.name 
@@ -884,34 +464,264 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
         roles r1_0 
     where
         r1_0.name=?
-2026-06-09T13:28:20.906+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [STUDENT]
-2026-06-09T13:28:21.010+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+2026-06-11T01:46:03.591+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [STUDENT]
+2026-06-11T01:46:03.732+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
     insert 
     into
         users
         (created_at, email, enabled, full_name, password, student_code) 
     values
         (?, ?, ?, ?, ?, ?)
-2026-06-09T13:28:21.010+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP) <- [2026-06-09T13:28:21.008024300]
-2026-06-09T13:28:21.011+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [nvb@gmail.com]
-2026-06-09T13:28:21.011+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (3:BOOLEAN) <- [true]
-2026-06-09T13:28:21.011+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Nguyen Van B]
-2026-06-09T13:28:21.011+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (5:VARCHAR) <- [$2a$10$RJDrzX8A.mcKeTG4qk9omeZUQhnP.XjDeWHXzeY0606nbtlCe6Yby]
-2026-06-09T13:28:21.011+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [STU02]
-2026-06-09T13:28:21.023+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+2026-06-11T01:46:03.734+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP) <- [2026-06-11T01:46:03.687555900]
+2026-06-11T01:46:03.734+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [sv1@gmail.com]
+2026-06-11T01:46:03.734+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (3:BOOLEAN) <- [true]
+2026-06-11T01:46:03.734+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Sinh Vien 01]
+2026-06-11T01:46:03.734+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (5:VARCHAR) <- [$2a$10$20Qr6cuQCCyVHMK9xcJjWOQt8FoO2j7ylIVJ4EEYQ3XEy1Ssl9TO6]
+2026-06-11T01:46:03.734+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [SV01]
+2026-06-11T01:46:03.764+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-1] com.it211_prj.aop.LoggingAspect          : [EXECUTION] AuthService.register(..) completed in 182ms
+2026-06-11T01:46:03.783+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
     insert 
     into
         user_roles
         (user_id, role_id) 
     values
         (?, ?)
-2026-06-09T13:28:21.025+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [3]
-2026-06-09T13:28:21.025+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-5] org.hibernate.orm.jdbc.bind              : binding parameter (2:BIGINT) <- [3]
-2026-06-09T13:28:43.551+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
-2026-06-09T13:28:43.551+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2026-06-09T13:28:43.551+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
-2026-06-09T13:28:43.553+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-6] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=nvb@gmail.com, password=123456]
-2026-06-09T13:28:43.554+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+2026-06-11T01:46:03.784+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [6]
+2026-06-11T01:46:03.785+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter (2:BIGINT) <- [3]
+2026-06-11T01:46:03.799+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-1] com.it211_prj.aop.LoggingAspect          : [EXECUTION] AuthController.register(..) completed in 228ms
+2026-06-11T01:47:42.776+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/users?keyword=lecturer&role=LECTURER&page=0&size=5
+2026-06-11T01:47:43.317+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-5] com.it211_prj.aop.LoggingAspect          : [EXECUTION] RedisTokenBlacklistService.isBlacklisted(..) completed in 540ms
+2026-06-11T01:47:43.457+07:00 ERROR 47644 --- [IT211_Prj] [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+	at io.jsonwebtoken.impl.JwtTokenizer.tokenize(JwtTokenizer.java:102) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:372) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:364) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:36) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:29) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseSignedClaims(DefaultJwtParser.java:830) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at com.it211_prj.security.JwtService.extractClaim(JwtService.java:57) ~[main/:na]
+	at com.it211_prj.security.JwtService.extractUsername(JwtService.java:42) ~[main/:na]
+	at com.it211_prj.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:32) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-06-11T01:47:43.472+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /error?keyword=lecturer&role=LECTURER&page=0&size=5
+2026-06-11T01:47:43.473+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-11T01:47:43.477+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-5] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-06-11T01:48:00.167+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/users?role=LECTURER
+2026-06-11T01:48:00.177+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-3] com.it211_prj.aop.LoggingAspect          : [EXECUTION] RedisTokenBlacklistService.isBlacklisted(..) completed in 9ms
+2026-06-11T01:48:00.179+07:00 ERROR 47644 --- [IT211_Prj] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+	at io.jsonwebtoken.impl.JwtTokenizer.tokenize(JwtTokenizer.java:102) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:372) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:364) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:36) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:29) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseSignedClaims(DefaultJwtParser.java:830) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at com.it211_prj.security.JwtService.extractClaim(JwtService.java:57) ~[main/:na]
+	at com.it211_prj.security.JwtService.extractUsername(JwtService.java:42) ~[main/:na]
+	at com.it211_prj.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:32) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-06-11T01:48:00.181+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /error?role=LECTURER
+2026-06-11T01:48:00.181+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-11T01:48:00.182+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-3] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-06-11T01:48:06.461+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/users
+2026-06-11T01:48:06.468+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-10] com.it211_prj.aop.LoggingAspect          : [EXECUTION] RedisTokenBlacklistService.isBlacklisted(..) completed in 6ms
+2026-06-11T01:48:06.469+07:00 ERROR 47644 --- [IT211_Prj] [http-nio-8080-exec-10] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+	at io.jsonwebtoken.impl.JwtTokenizer.tokenize(JwtTokenizer.java:102) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:372) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:364) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:36) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:29) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseSignedClaims(DefaultJwtParser.java:830) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at com.it211_prj.security.JwtService.extractClaim(JwtService.java:57) ~[main/:na]
+	at com.it211_prj.security.JwtService.extractUsername(JwtService.java:42) ~[main/:na]
+	at com.it211_prj.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:32) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-06-11T01:48:06.471+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-06-11T01:48:06.471+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-11T01:48:06.471+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-06-11T01:49:00.154+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2026-06-11T01:49:00.155+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-11T01:49:00.155+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2026-06-11T01:49:00.167+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-8] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=admin@it211.local, password=admin123]
+2026-06-11T01:49:00.299+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
     select
         u1_0.id,
         u1_0.created_at,
@@ -924,8 +734,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
         users u1_0 
     where
         u1_0.email=?
-2026-06-09T13:28:43.555+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nvb@gmail.com]
-2026-06-09T13:28:43.556+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+2026-06-11T01:49:00.299+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
+2026-06-11T01:49:00.312+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
     select
         r1_0.user_id,
         r1_1.id,
@@ -937,9 +747,9 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
             on r1_1.id=r1_0.role_id 
     where
         r1_0.user_id=?
-2026-06-09T13:28:43.557+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [3]
-2026-06-09T13:28:43.649+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2026-06-09T13:28:43.653+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+2026-06-11T01:49:00.313+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-06-11T01:49:00.419+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-06-11T01:49:00.423+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
     select
         u1_0.id,
         u1_0.created_at,
@@ -952,8 +762,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
         users u1_0 
     where
         u1_0.email=?
-2026-06-09T13:28:43.654+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nvb@gmail.com]
-2026-06-09T13:28:43.659+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+2026-06-11T01:49:00.424+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
+2026-06-11T01:49:00.428+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
     select
         u1_0.id,
         u1_0.created_at,
@@ -966,16 +776,570 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
         users u1_0 
     where
         u1_0.email=?
-2026-06-09T13:28:43.661+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [nvb@gmail.com]
-2026-06-09T13:28:43.664+07:00 DEBUG 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+2026-06-11T01:49:00.429+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
+2026-06-11T01:49:00.472+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
     insert 
     into
         refresh_tokens
         (expires_at, revoked, token, user_id) 
     values
         (?, ?, ?, ?)
-2026-06-09T13:28:43.665+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP_UTC) <- [2026-06-16T06:28:43.663969200Z]
-2026-06-09T13:28:43.665+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (2:BOOLEAN) <- [false]
-2026-06-09T13:28:43.665+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [ba3cb1ef-69b3-4192-9713-f53f44eac086]
-2026-06-09T13:28:43.665+07:00 TRACE 39140 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (4:BIGINT) <- [3]
-2026-06-09T13:28:43.668+07:00  INFO 39140 --- [IT211_Prj] [http-nio-8080-exec-6] com.it211_prj.aop.LoggingAspect          : [AUTH] Login success
+2026-06-11T01:49:00.473+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP_UTC) <- [2026-06-17T18:49:00.469140800Z]
+2026-06-11T01:49:00.474+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (2:BOOLEAN) <- [false]
+2026-06-11T01:49:00.474+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [ec2a12a9-9eed-47b2-abf3-f5a7f8d74e59]
+2026-06-11T01:49:00.474+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (4:BIGINT) <- [1]
+2026-06-11T01:49:00.479+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-8] com.it211_prj.aop.LoggingAspect          : [AUTH] Login success
+2026-06-11T01:49:00.479+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-8] com.it211_prj.aop.LoggingAspect          : [EXECUTION] AuthService.login(..) completed in 312ms
+2026-06-11T01:49:00.487+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-8] com.it211_prj.aop.LoggingAspect          : [EXECUTION] AuthController.login(..) completed in 323ms
+2026-06-11T01:49:20.719+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/v1/users?role=LECTURER
+2026-06-11T01:49:20.732+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-6] com.it211_prj.aop.LoggingAspect          : [EXECUTION] RedisTokenBlacklistService.isBlacklisted(..) completed in 12ms
+2026-06-11T01:49:20.760+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-11T01:49:20.761+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
+2026-06-11T01:49:20.764+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-11T01:49:20.765+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-06-11T01:49:20.771+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/v1/users?role=LECTURER
+2026-06-11T01:49:20.810+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        distinct u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    join
+        user_roles r1_0 
+            on u1_0.id=r1_0.user_id 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        (
+            ? is null 
+            or r1_1.name=?
+        ) 
+        and (
+            ? is null 
+            or lower(u1_0.email) like lower(concat('%', ?, '%')) escape '' 
+            or lower(u1_0.full_name) like lower(concat('%', ?, '%')) escape '' 
+            or lower(coalesce(u1_0.student_code, '')) like lower(concat('%', ?, '%')) escape ''
+        ) 
+    limit
+        ?
+2026-06-11T01:49:20.811+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [LECTURER]
+2026-06-11T01:49:20.811+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (2:ENUM) <- [LECTURER]
+2026-06-11T01:49:20.811+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (3:JAVA_OBJECT) <- [null]
+2026-06-11T01:49:20.811+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (4:JAVA_OBJECT) <- [null]
+2026-06-11T01:49:20.811+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (5:JAVA_OBJECT) <- [null]
+2026-06-11T01:49:20.811+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (6:JAVA_OBJECT) <- [null]
+2026-06-11T01:49:20.811+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (7:INTEGER) <- [20]
+2026-06-11T01:49:20.816+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-11T01:49:20.816+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [4]
+2026-06-11T01:49:20.825+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-6] com.it211_prj.aop.LoggingAspect          : [EXECUTION] UserService.search(..) completed in 36ms
+2026-06-11T01:49:20.827+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-6] com.it211_prj.aop.LoggingAspect          : [EXECUTION] UserController.search(..) completed in 42ms
+2026-06-11T01:49:20.835+07:00  WARN 47644 --- [IT211_Prj] [http-nio-8080-exec-6] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-06-11T01:49:44.954+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/courses
+2026-06-11T01:49:44.961+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-9] com.it211_prj.aop.LoggingAspect          : [EXECUTION] RedisTokenBlacklistService.isBlacklisted(..) completed in 7ms
+2026-06-11T01:49:44.962+07:00 ERROR 47644 --- [IT211_Prj] [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.MalformedJwtException: Invalid compact JWT string: Compact JWSs must contain exactly 2 period characters, and compact JWEs must contain exactly 4.  Found: 0
+	at io.jsonwebtoken.impl.JwtTokenizer.tokenize(JwtTokenizer.java:102) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:372) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:364) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:94) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:36) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.io.AbstractParser.parse(AbstractParser.java:29) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseSignedClaims(DefaultJwtParser.java:830) ~[jjwt-impl-0.12.6.jar:0.12.6]
+	at com.it211_prj.security.JwtService.extractClaim(JwtService.java:57) ~[main/:na]
+	at com.it211_prj.security.JwtService.extractUsername(JwtService.java:42) ~[main/:na]
+	at com.it211_prj.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:32) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.3.4.jar:6.3.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.14.jar:6.1.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.31.jar:10.1.31]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-06-11T01:49:44.964+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /error
+2026-06-11T01:49:44.964+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-11T01:49:44.965+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2026-06-11T01:51:26.810+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/users
+2026-06-11T01:51:26.817+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-7] com.it211_prj.aop.LoggingAspect          : [EXECUTION] RedisTokenBlacklistService.isBlacklisted(..) completed in 7ms
+2026-06-11T01:51:26.822+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-11T01:51:26.824+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
+2026-06-11T01:51:26.826+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-11T01:51:26.827+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-06-11T01:51:26.829+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/users
+2026-06-11T01:51:26.840+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.email=? 
+    limit
+        ?
+2026-06-11T01:51:26.841+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [gv01@gmail.com]
+2026-06-11T01:51:26.841+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (2:INTEGER) <- [1]
+2026-06-11T01:51:26.844+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.name 
+    from
+        roles r1_0 
+    where
+        r1_0.name=?
+2026-06-11T01:51:26.844+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:ENUM) <- [LECTURER]
+2026-06-11T01:51:26.914+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (created_at, email, enabled, full_name, password, student_code) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2026-06-11T01:51:26.915+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP) <- [2026-06-11T01:51:26.913814600]
+2026-06-11T01:51:26.915+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [gv01@gmail.com]
+2026-06-11T01:51:26.915+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (3:BOOLEAN) <- [true]
+2026-06-11T01:51:26.916+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Giang vien 01]
+2026-06-11T01:51:26.916+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (5:VARCHAR) <- [$2a$10$Onv48MgdIzgDfsqVClRWfO60XNlw.CNIdb7I6EA.Um0UmqFe3GsOy]
+2026-06-11T01:51:26.916+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [GV01]
+2026-06-11T01:51:26.919+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-7] com.it211_prj.aop.LoggingAspect          : [EXECUTION] UserService.create(..) completed in 81ms
+2026-06-11T01:51:26.920+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        user_roles
+        (user_id, role_id) 
+    values
+        (?, ?)
+2026-06-11T01:51:26.920+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [7]
+2026-06-11T01:51:26.920+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter (2:BIGINT) <- [2]
+2026-06-11T01:51:26.942+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-7] com.it211_prj.aop.LoggingAspect          : [EXECUTION] UserController.create(..) completed in 106ms
+2026-06-11T01:52:18.911+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/courses
+2026-06-11T01:52:18.918+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-4] com.it211_prj.aop.LoggingAspect          : [EXECUTION] RedisTokenBlacklistService.isBlacklisted(..) completed in 7ms
+2026-06-11T01:52:18.923+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-11T01:52:18.924+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
+2026-06-11T01:52:18.927+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-11T01:52:18.928+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-06-11T01:52:18.932+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/courses
+2026-06-11T01:52:18.971+07:00  WARN 47644 --- [IT211_Prj] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Long` from String "GV1780986825112": not a valid `java.lang.Long` value]
+2026-06-11T01:52:39.979+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/courses
+2026-06-11T01:52:39.983+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-3] com.it211_prj.aop.LoggingAspect          : [EXECUTION] RedisTokenBlacklistService.isBlacklisted(..) completed in 4ms
+2026-06-11T01:52:39.983+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-11T01:52:39.983+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
+2026-06-11T01:52:39.988+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-11T01:52:39.988+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-06-11T01:52:39.989+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/courses
+2026-06-11T01:52:39.991+07:00  WARN 47644 --- [IT211_Prj] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Long` from String "GV01": not a valid `java.lang.Long` value]
+2026-06-11T01:53:01.884+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/courses
+2026-06-11T01:53:01.892+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-8] com.it211_prj.aop.LoggingAspect          : [EXECUTION] RedisTokenBlacklistService.isBlacklisted(..) completed in 8ms
+2026-06-11T01:53:01.898+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-11T01:53:01.899+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [admin@it211.local]
+2026-06-11T01:53:01.902+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-11T01:53:01.903+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-06-11T01:53:01.907+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/courses
+2026-06-11T01:53:01.918+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        c1_0.id 
+    from
+        courses c1_0 
+    where
+        c1_0.code=? 
+    limit
+        ?
+2026-06-11T01:53:01.918+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [C01]
+2026-06-11T01:53:01.918+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (2:INTEGER) <- [1]
+2026-06-11T01:53:01.932+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name,
+        u1_0.student_code 
+    from
+        users u1_0 
+    left join
+        user_roles r1_0 
+            on u1_0.id=r1_0.user_id 
+    left join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        u1_0.id=?
+2026-06-11T01:53:01.933+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [7]
+2026-06-11T01:53:01.940+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    insert 
+    into
+        courses
+        (active, code, created_at, description, lecturer_id, title) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2026-06-11T01:53:01.940+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (1:BOOLEAN) <- [true]
+2026-06-11T01:53:01.940+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (2:VARCHAR) <- [C01]
+2026-06-11T01:53:01.941+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (3:TIMESTAMP) <- [2026-06-11T01:53:01.937428400]
+2026-06-11T01:53:01.941+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (4:VARCHAR) <- [Da tao khoa hoc 01]
+2026-06-11T01:53:01.941+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (5:BIGINT) <- [7]
+2026-06-11T01:53:01.941+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-8] org.hibernate.orm.jdbc.bind              : binding parameter (6:VARCHAR) <- [Khoa hoc 01]
+2026-06-11T01:53:01.943+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-8] com.it211_prj.aop.LoggingAspect          : [COURSE] Course created with args=CourseRequest[code=C01, title=Khoa hoc 01, description=Da tao khoa hoc 01, lecturerId=7, active=true]
+2026-06-11T01:53:01.952+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-8] com.it211_prj.aop.LoggingAspect          : [EXECUTION] CourseService.create(..) completed in 36ms
+2026-06-11T01:53:01.960+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-8] com.it211_prj.aop.LoggingAspect          : [EXECUTION] CourseController.create(..) completed in 46ms
+2026-06-11T02:02:21.625+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/auth/login
+2026-06-11T02:02:21.626+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-06-11T02:02:21.627+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/auth/login
+2026-06-11T02:02:21.632+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-2] com.it211_prj.aop.LoggingAspect          : [AUTH] Login attempt with args=LoginRequest[email=sv1@gmail.com, password=123456]
+2026-06-11T02:02:21.637+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-11T02:02:21.638+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [sv1@gmail.com]
+2026-06-11T02:02:21.642+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-11T02:02:21.643+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [6]
+2026-06-11T02:02:21.754+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-2] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2026-06-11T02:02:21.759+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-11T02:02:21.760+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [sv1@gmail.com]
+2026-06-11T02:02:21.765+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-11T02:02:21.765+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [sv1@gmail.com]
+2026-06-11T02:02:21.770+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        refresh_tokens
+        (expires_at, revoked, token, user_id) 
+    values
+        (?, ?, ?, ?)
+2026-06-11T02:02:21.771+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (1:TIMESTAMP_UTC) <- [2026-06-17T19:02:21.768539600Z]
+2026-06-11T02:02:21.771+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (2:BOOLEAN) <- [false]
+2026-06-11T02:02:21.771+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (3:VARCHAR) <- [fb871494-8417-460e-92af-07490d5036fb]
+2026-06-11T02:02:21.772+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter (4:BIGINT) <- [6]
+2026-06-11T02:02:21.775+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-2] com.it211_prj.aop.LoggingAspect          : [AUTH] Login success
+2026-06-11T02:02:21.775+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-2] com.it211_prj.aop.LoggingAspect          : [EXECUTION] AuthService.login(..) completed in 143ms
+2026-06-11T02:02:21.799+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-2] com.it211_prj.aop.LoggingAspect          : [EXECUTION] AuthController.login(..) completed in 169ms
+2026-06-11T02:03:35.256+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/v1/enrollments/courses/1
+2026-06-11T02:03:35.263+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-4] com.it211_prj.aop.LoggingAspect          : [EXECUTION] RedisTokenBlacklistService.isBlacklisted(..) completed in 7ms
+2026-06-11T02:03:35.267+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-11T02:03:35.268+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [sv1@gmail.com]
+2026-06-11T02:03:35.270+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-11T02:03:35.270+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [6]
+2026-06-11T02:03:35.273+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/v1/enrollments/courses/1
+2026-06-11T02:03:35.277+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.student_code 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-06-11T02:03:35.278+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:VARCHAR) <- [sv1@gmail.com]
+2026-06-11T02:03:35.279+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        r1_0.user_id,
+        r1_1.id,
+        r1_1.name 
+    from
+        user_roles r1_0 
+    join
+        roles r1_1 
+            on r1_1.id=r1_0.role_id 
+    where
+        r1_0.user_id=?
+2026-06-11T02:03:35.280+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [6]
+2026-06-11T02:03:35.282+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-4] com.it211_prj.aop.LoggingAspect          : [EXECUTION] CurrentUserService.getCurrentUser() completed in 6ms
+2026-06-11T02:03:35.283+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        c1_0.id,
+        c1_0.active,
+        c1_0.code,
+        c1_0.created_at,
+        c1_0.description,
+        c1_0.lecturer_id,
+        c1_0.title 
+    from
+        courses c1_0 
+    where
+        c1_0.id=?
+2026-06-11T02:03:35.283+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-06-11T02:03:35.295+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        e1_0.id 
+    from
+        enrollments e1_0 
+    where
+        e1_0.student_id=? 
+        and e1_0.course_id=? 
+    limit
+        ?
+2026-06-11T02:03:35.295+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [6]
+2026-06-11T02:03:35.296+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (2:BIGINT) <- [1]
+2026-06-11T02:03:35.296+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (3:INTEGER) <- [1]
+2026-06-11T02:03:35.301+07:00 DEBUG 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    insert 
+    into
+        enrollments
+        (course_id, enrolled_at, student_id) 
+    values
+        (?, ?, ?)
+2026-06-11T02:03:35.302+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (1:BIGINT) <- [1]
+2026-06-11T02:03:35.302+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (2:TIMESTAMP) <- [2026-06-11T02:03:35.300421]
+2026-06-11T02:03:35.302+07:00 TRACE 47644 --- [IT211_Prj] [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter (3:BIGINT) <- [6]
+2026-06-11T02:03:35.305+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-4] com.it211_prj.aop.LoggingAspect          : [EXECUTION] EnrollmentService.enrollCurrentStudent(..) completed in 29ms
+2026-06-11T02:03:35.331+07:00  INFO 47644 --- [IT211_Prj] [http-nio-8080-exec-4] com.it211_prj.aop.LoggingAspect          : [EXECUTION] EnrollmentController.enroll(..) completed in 56ms
+2026-06-11T02:20:51.935+07:00  INFO 47644 --- [IT211_Prj] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-11T02:20:51.940+07:00  INFO 47644 --- [IT211_Prj] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-11T02:20:51.942+07:00  INFO 47644 --- [IT211_Prj] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

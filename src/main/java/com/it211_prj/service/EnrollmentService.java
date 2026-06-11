@@ -24,16 +24,18 @@ public class EnrollmentService {
         User student = currentUserService.getCurrentUser();
         Course course = courseService.findCourse(courseId);
         if (enrollmentRepository.existsByStudentIdAndCourseId(student.getId(), courseId)) {
-            throw new BadRequestException("Student already enrolled in this course");
+            throw new BadRequestException("Sinh vien da dang ky kho hoc nay");
         }
         Enrollment enrollment = Enrollment.builder().student(student).course(course).build();
         return toResponse(enrollmentRepository.save(enrollment));
     }
 
+    @Transactional(readOnly = true)
     public List<EnrollmentResponse> findMine() {
         return enrollmentRepository.findByStudentId(currentUserService.getCurrentUser().getId()).stream().map(this::toResponse).toList();
     }
 
+    @Transactional(readOnly = true)
     public List<EnrollmentResponse> findByCourse(Long courseId) {
         return enrollmentRepository.findByCourseId(courseId).stream().map(this::toResponse).toList();
     }

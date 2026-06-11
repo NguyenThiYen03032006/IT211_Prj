@@ -32,9 +32,13 @@ public class Submission {
     @Column(nullable = false, length = 180)
     private String title;
 
-    // URL file da upload len Cloudinary/S3.
-    @Column(nullable = false, length = 600)
+    // URL file da upload len Cloudinary/S3; nullable vi sinh vien co the nop GitHub link.
+    @Column(length = 600)
     private String fileUrl;
+
+    // Link GitHub cho cach nop bai bang source code repository.
+    @Column(length = 600)
+    private String githubUrl;
 
     // Public id de xoa/cap nhat file tren cloud khi can.
     @Column(length = 250)

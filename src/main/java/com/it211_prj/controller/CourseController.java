@@ -5,10 +5,10 @@ import com.it211_prj.dto.course.CourseResponse;
 import com.it211_prj.service.CourseService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/courses")
@@ -16,10 +16,12 @@ import java.util.List;
 public class CourseController {
     private final CourseService courseService;
 
-    // Tat ca user da dang nhap co the xem danh sach khoa hoc.
+    // Tat ca user da dang nhap co the tim kiem khoa hoc va phan trang.
     @GetMapping
-    public List<CourseResponse> findAll() {
-        return courseService.findAll();
+    public Page<CourseResponse> search(@RequestParam(required = false) String keyword,
+                                       @RequestParam(required = false) Boolean active,
+                                       Pageable pageable) {
+        return courseService.search(keyword, active, pageable);
     }
 
     @GetMapping("/{id}")

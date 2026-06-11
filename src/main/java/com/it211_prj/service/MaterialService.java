@@ -35,6 +35,7 @@ public class MaterialService {
         return toResponse(materialRepository.save(material));
     }
 
+    @Transactional(readOnly = true)
     public List<MaterialResponse> findByCourse(Long courseId) {
         return materialRepository.findByCourseId(courseId).stream().map(this::toResponse).toList();
     }

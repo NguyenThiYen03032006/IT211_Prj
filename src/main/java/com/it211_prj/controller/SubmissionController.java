@@ -1,7 +1,9 @@
 package com.it211_prj.controller;
 
+import com.it211_prj.dto.submission.GithubSubmissionRequest;
 import com.it211_prj.dto.submission.SubmissionResponse;
 import com.it211_prj.service.SubmissionService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -22,6 +24,13 @@ public class SubmissionController {
                                      @RequestParam String title,
                                      @RequestParam MultipartFile file) {
         return submissionService.upload(courseId, title, file);
+    }
+
+    // Student nop bai bang GitHub URL khi bai tap la source code/repository.
+    @PostMapping("/github")
+    @ResponseStatus(HttpStatus.CREATED)
+    public SubmissionResponse submitGithub(@Valid @RequestBody GithubSubmissionRequest request) {
+        return submissionService.submitGithub(request.courseId(), request.title(), request.githubUrl());
     }
 
     // Student xem bai nop cua minh.

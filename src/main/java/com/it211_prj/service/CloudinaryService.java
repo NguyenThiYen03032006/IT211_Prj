@@ -39,16 +39,16 @@ public class CloudinaryService implements CloudStorageService {
             Map<?, ?> result = cloudinary.uploader().upload(file.getBytes(), ObjectUtils.asMap("folder", folder, "resource_type", "auto"));
             return new UploadResult(String.valueOf(result.get("secure_url")), String.valueOf(result.get("public_id")));
         } catch (IOException ex) {
-            throw new BadRequestException("Cannot upload file: " + ex.getMessage());
+            throw new BadRequestException("Khong the tai file: " + ex.getMessage());
         }
     }
 
     private void validate(MultipartFile file) {
         if (file == null || file.isEmpty()) {
-            throw new BadRequestException("File is required");
+            throw new BadRequestException("Chua co file");
         }
-        if (file.getSize() > 20 * 1024 * 1024) {
-            throw new BadRequestException("File must be smaller than 20MB");
+        if (file.getSize() > 15 * 1024 * 1024) {
+            throw new BadRequestException("File phai nho hon 15MB");
         }
     }
 }

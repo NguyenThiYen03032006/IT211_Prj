@@ -10,11 +10,12 @@ import com.it211_prj.exception.ResourceNotFoundException;
 import com.it211_prj.repository.RoleRepository;
 import com.it211_prj.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -25,10 +26,12 @@ public class UserService {
     private final RoleRepository roleRepository;
     private final PasswordEncoder passwordEncoder;
 
-    public List<UserResponse> findAll() {
-        return userRepository.findAll().stream().map(this::toResponse).toList();
+    @Transactional(readOnly = true)
+    public Page<UserResponse> search(String keyword, RoleName role, Pageable pageable) {
+        return userRepository.search(normalize(keyword), role, pageable).map(this::toResponse);
     }
 
+    @Transactional(readOnly = true)
     public UserResponse findById(Long id) {
         return toResponse(findUser(id));
     }
@@ -73,7 +76,7 @@ public class UserService {
     }
 
     User findUser(Long id) {
-        return userRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("User not found: " + id));
+        return userRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Khong tim thay nguoi dung: " + id));
     }
 
     UserResponse toResponse(User user) {
@@ -84,5 +87,9 @@ public class UserService {
     private Role getRole(RoleName name) {
         return roleRepository.findByName(name)
                 .orElseGet(() -> roleRepository.save(Role.builder().name(name).build()));
+    }
+
+    private String normalize(String keyword) {
+        return keyword == null || keyword.isBlank() ? null : keyword.trim();
     }
 }

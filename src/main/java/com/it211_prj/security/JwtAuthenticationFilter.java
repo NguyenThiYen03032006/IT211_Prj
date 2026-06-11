@@ -1,6 +1,6 @@
 package com.it211_prj.security;
 
-import com.it211_prj.repository.TokenBlacklistRepository;
+import com.it211_prj.service.RedisTokenBlacklistService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -21,14 +21,14 @@ import java.io.IOException;
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
     private final JwtService jwtService;
     private final CustomUserDetailsService userDetailsService;
-    private final TokenBlacklistRepository tokenBlacklistRepository;
+    private final RedisTokenBlacklistService tokenBlacklistService;
 
     // Filter chay moi request, doc Bearer token va nap Authentication vao SecurityContext.
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain)
             throws ServletException, IOException {
         String token = resolveToken(request);
-        if (token != null && !tokenBlacklistRepository.existsByToken(token)) {
+        if (token != null && !tokenBlacklistService.isBlacklisted(token)) {
             String email = jwtService.extractUsername(token);
             if (email != null && SecurityContextHolder.getContext().getAuthentication() == null) {
                 UserDetails userDetails = userDetailsService.loadUserByUsername(email);

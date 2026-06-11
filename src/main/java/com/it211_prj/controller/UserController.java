@@ -2,13 +2,14 @@ package com.it211_prj.controller;
 
 import com.it211_prj.dto.user.UserRequest;
 import com.it211_prj.dto.user.UserResponse;
+import com.it211_prj.entity.RoleName;
 import com.it211_prj.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/users")
@@ -16,10 +17,12 @@ import java.util.List;
 public class UserController {
     private final UserService userService;
 
-    // Admin xem danh sach tat ca tai khoan.
+    // Admin tim kiem user theo keyword/role va phan trang bang page, size, sort.
     @GetMapping
-    public List<UserResponse> findAll() {
-        return userService.findAll();
+    public Page<UserResponse> search(@RequestParam(required = false) String keyword,
+                                     @RequestParam(required = false) RoleName role,
+                                     Pageable pageable) {
+        return userService.search(keyword, role, pageable);
     }
 
     // Admin xem chi tiet mot tai khoan.

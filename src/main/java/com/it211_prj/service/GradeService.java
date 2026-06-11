@@ -33,6 +33,7 @@ public class GradeService {
         return toResponse(gradeRepository.save(grade));
     }
 
+    @Transactional(readOnly = true)
     public List<GradeResponse> findAll() {
         return gradeRepository.findAll().stream().map(this::toResponse).toList();
     }

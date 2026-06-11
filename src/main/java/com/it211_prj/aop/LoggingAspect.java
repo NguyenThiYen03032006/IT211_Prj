@@ -1,17 +1,29 @@
 package com.it211_prj.aop;
 
 import lombok.extern.slf4j.Slf4j;
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.AfterThrowing;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 @Slf4j
 @Aspect
 @Component
 public class LoggingAspect {
+    // Do thoi gian thuc thi cho tat ca public method o controller va service.
+    @Around("execution(public * com.it211_prj.service..*(..)) || execution(public * com.it211_prj.controller..*(..))")
+    public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
+        long start = System.currentTimeMillis();
+        try {
+            Object result = joinPoint.proceed();
+            log.info("[EXECUTION] {} completed in {}ms", joinPoint.getSignature().toShortString(), System.currentTimeMillis() - start);
+            return result;
+        } catch (Throwable ex) {
+            log.info("[EXECUTION] {} failed in {}ms", joinPoint.getSignature().toShortString(), System.currentTimeMillis() - start);
+            throw ex;
+        }
+    }
+
     // Pointcut gom cac service quan trong can audit theo prompt.
     @Before("execution(* com.it211_prj.service.AuthService.login(..))")
     public void beforeLogin(JoinPoint joinPoint) {

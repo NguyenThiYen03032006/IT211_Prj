@@ -32,7 +32,7 @@ public class AuthService {
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
     private final RefreshTokenRepository refreshTokenRepository;
-    private final TokenBlacklistRepository tokenBlacklistRepository;
+    private final RedisTokenBlacklistService tokenBlacklistService;
 
     @Value("${app.jwt.refresh-token-expiration-ms}")
     private long refreshTokenExpirationMs;
@@ -69,21 +69,21 @@ public class AuthService {
     @Transactional
     public RefreshTokenResponse refresh(RefreshTokenRequest request) {
         RefreshToken refreshToken = refreshTokenRepository.findByToken(request.refreshToken())
-                .orElseThrow(() -> new BadRequestException("Invalid refresh token"));
+                .orElseThrow(() -> new BadRequestException("Refresh token khong hop le"));
         if (refreshToken.isRevoked() || refreshToken.getExpiresAt().isBefore(Instant.now())) {
-            throw new BadRequestException("Refresh token expired or revoked");
+            throw new BadRequestException("Refresh token da het han hoac da bi thu hoi");
         }
+        refreshToken.setRevoked(true);
+        refreshTokenRepository.save(refreshToken);
         UserDetails userDetails = userDetailsService.loadUserByUsername(refreshToken.getUser().getEmail());
-        return new RefreshTokenResponse(jwtService.generateAccessToken(userDetails), refreshToken.getToken(), "Bearer");
+        RefreshToken newRefreshToken = createRefreshToken(refreshToken.getUser());
+        return new RefreshTokenResponse(jwtService.generateAccessToken(userDetails), newRefreshToken.getToken(), "Bearer");
     }
 
     @Transactional
     public void logout(String accessToken, RefreshTokenRequest request) {
-        if (accessToken != null && !tokenBlacklistRepository.existsByToken(accessToken)) {
-            tokenBlacklistRepository.save(TokenBlacklist.builder()
-                    .token(accessToken)
-                    .expiresAt(jwtService.extractExpiration(accessToken).toInstant())
-                    .build());
+        if (accessToken != null && !tokenBlacklistService.isBlacklisted(accessToken)) {
+            tokenBlacklistService.blacklist(accessToken, jwtService.extractExpiration(accessToken).toInstant());
         }
         refreshTokenRepository.findByToken(request.refreshToken()).ifPresent(token -> {
             token.setRevoked(true);

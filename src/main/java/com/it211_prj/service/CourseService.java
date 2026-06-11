@@ -8,10 +8,10 @@ import com.it211_prj.exception.BadRequestException;
 import com.it211_prj.exception.ResourceNotFoundException;
 import com.it211_prj.repository.CourseRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
 
 @Service
 @RequiredArgsConstructor
@@ -19,10 +19,12 @@ public class CourseService {
     private final CourseRepository courseRepository;
     private final UserService userService;
 
-    public List<CourseResponse> findAll() {
-        return courseRepository.findAll().stream().map(this::toResponse).toList();
+    @Transactional(readOnly = true)
+    public Page<CourseResponse> search(String keyword, Boolean active, Pageable pageable) {
+        return courseRepository.search(normalize(keyword), active, pageable).map(this::toResponse);
     }
 
+    @Transactional(readOnly = true)
     public CourseResponse findById(Long id) {
         return toResponse(findCourse(id));
     }
@@ -30,7 +32,7 @@ public class CourseService {
     @Transactional
     public CourseResponse create(CourseRequest request) {
         if (courseRepository.existsByCode(request.code())) {
-            throw new BadRequestException("Course code already exists");
+            throw new BadRequestException("Ma khoa hoc da ton tai");
         }
         User lecturer = userService.findUser(request.lecturerId());
         Course course = Course.builder()
@@ -61,11 +63,15 @@ public class CourseService {
     }
 
     Course findCourse(Long id) {
-        return courseRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Course not found: " + id));
+        return courseRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Khong tim thay khoa hoc: " + id));
     }
 
     CourseResponse toResponse(Course course) {
         return new CourseResponse(course.getId(), course.getCode(), course.getTitle(), course.getDescription(),
                 course.getLecturer().getId(), course.getLecturer().getFullName(), course.isActive());
+    }
+
+    private String normalize(String keyword) {
+        return keyword == null || keyword.isBlank() ? null : keyword.trim();
     }
 }
